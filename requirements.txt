@@ -1,10 +1,24 @@
-openai>=1.0.0
-chromadb>=0.4.0
-langchain>=0.1.0
-langchain-openai>=0.0.5
-langchain-community>=0.0.10
-python-dotenv>=1.0.0
-pypdf>=3.0.0
-tiktoken>=0.5.0
-jupyter>=1.0.0
-notebook>=7.0.0
+# ─────────────────────────────────────────
+# RAG Knowledge Assistant — Dependencies
+# Last updated: Day 1
+# ─────────────────────────────────────────
+
+# LLM Providers (free APIs)
+groq>=1.2.0                  # Groq API — LLaMA 3.1 (primary LLM)
+google-genai>=2.4.0          # Google Gemini 2.5 Flash (secondary LLM)
+
+# LangChain — RAG orchestration
+langchain>=0.3.0
+langchain-openai>=0.3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+
+# Vector Database
+chromadb>=1.5.0              # Local vector store for embeddings
+
+# Document Processing
+pypdf>=6.0.0                 # Read PDF files
+tiktoken>=0.13.0             # Token counting
+
+# Utilities
+python-dotenv>=1.0.0         # Load .env secrets safely
