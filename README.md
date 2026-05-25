@@ -4,7 +4,7 @@ A Retrieval-Augmented Generation (RAG) system that answers questions from your o
 
 ## Tech Stack
 
-### AI Model
+### Ai Model
 - LLM: LLaMA 3.1 via Groq API (free)
 - Vector Database: ChromaDB
 - Orchestration: LangChain
