@@ -1,7 +1,6 @@
 # RAG Knowledge Assistant
 
-A Retrieval-Augmented Generation (RAG) system that answers questions 
-from your own documents using LLaMA 3 and ChromaDB.
+A Retrieval-Augmented Generation (RAG) system that answers questions from your own documents using LLaMA 3 and ChromaDB.
 
 ## Tech Stack
 - LLM: LLaMA 3.1 via Groq API (free)
@@ -11,7 +10,7 @@ from your own documents using LLaMA 3 and ChromaDB.
 - Frontend: Streamlit (coming in Phase-3)
 
 ## Project Status
-Phase 1 — Foundation (In Progress)
+Phase 1 - Foundation (In Progress)
 
 ## Setup
 ```bash
