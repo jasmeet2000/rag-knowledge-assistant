@@ -30,5 +30,12 @@ pip install -r requirements.txt
   itself when asked without retrieval context. Gemini 2.5 Flash 
   answered correctly. This motivated the entire project.
   
+- **Source citations are essential**: Built `rag_query_with_sources()` 
+  to expose retrieved chunks alongside generated answers. This 
+  directly caught a hallucination — the model claimed "8 private 
+  internal documents from a production company," a detail absent 
+  from all 3 retrieved sources. Without source visibility, this 
+  fabricated answer would have appeared fully credible.
+  
 ## Author
 Built as a portfolio project to demonstrate production RAG systems.
