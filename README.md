@@ -29,7 +29,7 @@ pip install -r requirements.txt
   and an earlier model) gave confidently wrong definitions of "RAG" 
   itself when asked without retrieval context. Gemini 2.5 Flash 
   answered correctly. This motivated the entire project.
-  
+
 - **Source citations are essential**: Built `rag_query_with_sources()` 
   to expose retrieved chunks alongside generated answers. This 
   directly caught a hallucination — the model claimed "8 private 
@@ -37,5 +37,12 @@ pip install -r requirements.txt
   from all 3 retrieved sources. Without source visibility, this 
   fabricated answer would have appeared fully credible.
   
+
+  **Phase 1:**
+  - Day 1: Environment, LLM connections, witnessed hallucination
+  - Day 2: Embeddings, ChromaDB, document chunking, semantic search
+  - Day 3: Full RAG pipeline — retrieval + generation + source citations
+  - Day 4: Make it work with MULTIPLE PDFs, add proper metadata, and move core logic into a reusable Python file (src/)
+
 ## Author
 Built as a portfolio project to demonstrate production RAG systems.
